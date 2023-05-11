@@ -1,0 +1,41 @@
+/* body{
+    background-image: url('./images/note1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+/* body {
+  height: 99vh;
+  background-image: ;
+
+} */
+
+.home-container{
+  /* padding-top: 100px; */
+  height: 100vh;
+  background-image:url("./images/note.jpeg") ;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(10, 10, 10);
+}
+.home-container h2{
+  font-size: 2.5rem;
+  font: bold;
+}
+
+@media(max-width:850px){
+  .home-container h2{
+    font-size: 1.5em;
+  }
+}
+
+@media(max-width:550px){
+  .home-container h2{
+    font-size: 1.1em;
+  }
+}

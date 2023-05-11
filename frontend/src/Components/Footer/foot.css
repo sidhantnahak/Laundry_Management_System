@@ -1,0 +1,33 @@
+/* .footer_div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: white;
+    padding:1.2rem;
+    background: rgb(66, 68, 69);
+
+} */
+
+.footer_div {
+    /* margin-top: 11px; */
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: bold;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: white;
+  padding: 1.2rem;
+  background: rgb(66, 68, 69);
+}
+
+

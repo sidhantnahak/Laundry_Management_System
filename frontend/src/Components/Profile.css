@@ -1,0 +1,22 @@
+.main_container{
+    height: 99vh;
+    width: 100%;
+}
+.profile_container{
+    width: 30vw;
+    height: 80vh;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+
+}
+.main_container h3{
+    margin: 5px;
+    padding: 0.5em 1em;
+}
+
+@media(max-width:600px){
+    .profile_container{
+        width: 70vw;
+    }
+}
